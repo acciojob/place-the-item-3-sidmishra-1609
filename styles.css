@@ -1,8 +1,15 @@
 
 /* Your CSS Code here. */
+
 .holder{
 	display:flex;
-	justify-content:space-between;
-/* 	flex-direction:row; */
-	flex-wrap:wrap;
+	justify-content:space-evenly;
+	width: 100%;
+	height: auto;
+	flex-direction: row;
+	flex-flow: wrap;
+	align-item: flex-start;
+}
+.flx{
+	background-color:red;
 }
